@@ -1,7 +1,7 @@
 #ejercicio 10
 sueldo_basico = float(input("Ingrese sueldo basico: "))
 antiguedad = int(input("Ingrese antiguedad: "))
-estado_civil = int(input("Ingrese 1 si es soltero o 2 si es casado"))
+estado_civil = int(input("Ingrese 1 si es soltero o 2 si es casado: "))
 if estado_civil == 1:
     importe = sueldo_basico + sueldo_basico*0.05*antiguedad
 elif estado_civil == 2:
