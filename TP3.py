@@ -46,5 +46,5 @@ while temperaturas != 0:
     pregunta = pregunta + 1
     total = total + temperaturas
     temperaturas = int(input("Ingrese valor de temperatura: "))
-promedio = (total//pregunta)
+promedio = (total/pregunta)
 print("El promedio de temperaturas es: ", promedio)
