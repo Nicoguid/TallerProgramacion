@@ -41,10 +41,10 @@ print("La suma es: ",suma)
 #ejercicio while 2
 total=0
 pregunta = 0
-temperaturas = int(input("Ingrese valor de temperatura: "))
+temperaturas = int(input("Ingrese valor de temperatura, para finalizar ingrese 0: "))
 while temperaturas != 0:
     pregunta = pregunta + 1
     total = total + temperaturas
-    temperaturas = int(input("Ingrese valor de temperatura: "))
+    temperaturas = int(input("Ingrese valor de temperatura, para finalizar ingrese 0: "))
 promedio = (total/pregunta)
 print("El promedio de temperaturas es: ", promedio)
