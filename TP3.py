@@ -16,12 +16,12 @@ print("Sueldo basico: ", sueldo_basico, "\nAntiguedad: ", antiguedad, "\nEstado 
 print("Su sueldo neto es: ", sueldo_neto)
 
 #ejercicio for in
+pares=0
 for i in range(0,5,1):
-    pares=0
-    nro=int(input("Ingresar numero: "))
+    nro=int(input("Ingresar numero: ")
     if nro%2==0:
         print("Par")
-        pares= pares+1
+        pares = pares+1
     else:
         print("Impar")
 print("Cantidad de numeros pares: ", pares)        
