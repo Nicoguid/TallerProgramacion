@@ -14,3 +14,14 @@ sindicato = importe*0.03
 sueldo_neto = importe - jubilacion - obra_social - sindicato
 print("Sueldo basico: ", sueldo_basico, "\nAntiguedad: ", antiguedad, "\nEstado civil: ", estado_civil, "\nDescuento jubilacion: ", jubilacion, "\nDescuento obra social: ", obra_social, "\nDescuento sindicato: ", sindicato)
 print("Su sueldo neto es: ", sueldo_neto)
+
+#ejercicio for in
+for i in range(0,5,1):
+    pares=0
+    nro=int(input("Ingresar numero: "))
+    if nro%2==0:
+        print("Par")
+        pares= pares+1
+    else:
+        print("Impar")
+print("Cantidad de numeros pares: ", pares)        
