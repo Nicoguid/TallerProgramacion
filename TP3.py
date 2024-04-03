@@ -17,11 +17,15 @@ print("Su sueldo neto es: ", sueldo_neto)
 
 #ejercicio for in
 pares=0
+total=0
 for i in range(0,5,1):
-    nro=int(input("Ingresar numero: ")
+    nro=int(input("Ingresar numero: "))
     if nro%2==0:
         print("Par")
-        pares = pares+1
+        pares = pares + 1
+        total = total + nro
     else:
         print("Impar")
-print("Cantidad de numeros pares: ", pares)        
+promedio=total//pares
+print("Promedio de los numeros pares: ", promedio)
+print("Cantidad de numeros pares: ", pares)
