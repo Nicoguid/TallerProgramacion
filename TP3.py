@@ -36,4 +36,4 @@ nro = int(input("Ingresar numero: "))
 while nro >= 0:
     suma = suma + nro
     nro=int(input("Ingresar numero: "))
-print("La suma es: ", suma)
+print("La suma es: ",suma)
