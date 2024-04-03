@@ -26,6 +26,6 @@ for i in range(0,5,1):
         total = total + nro
     else:
         print("Impar")
-promedio=total//pares
+promedio=float(total//pares)
 print("Promedio de los numeros pares: ", promedio)
 print("Cantidad de numeros pares: ", pares)
