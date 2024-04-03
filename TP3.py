@@ -29,3 +29,11 @@ for i in range(0,5,1):
 promedio=(total//pares)
 print("Promedio de los numeros pares: ", promedio)
 print("Cantidad de numeros pares: ", pares)
+
+#ejercicio while
+suma = 0
+nro = int(input("Ingresar numero: "))
+while nro >= 0:
+    suma = suma + nro
+    nro=int(input("Ingresar numero: "))
+print("La suma es: ", suma)
